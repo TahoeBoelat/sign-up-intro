@@ -1,1 +1,26 @@
-/*  */
+/* Setup */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./img/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+}
+.main-title,
+.description,
+.submit-button,
+.trial-button {
+  color: #fff;
+}
+
+/* Desktop Style */
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+/* Mobile Style */
