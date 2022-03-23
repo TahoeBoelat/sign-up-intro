@@ -16,11 +16,42 @@ body {
 .trial-button {
   color: #fff;
 }
-
+.registration-form {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  margin-top: 48px;
+}
+.bolder {
+  color: hsl(246, 25%, 77%);
+}
 /* Desktop Style */
 #container {
   display: flex;
-  justify-content: center;
+  margin: auto;
+  margin-top: 225px;
+  width: 70%;
   flex-direction: row;
+}
+.trial-button {
+  font-size: 18px;
+  text-decoration: none;
+  width: 550px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+}
+.alert-dialog {
+  font-size: 12px;
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+  visibility: hidden;
+}
+.term-and-services {
+  font-size: 12px;
 }
 /* Mobile Style */
