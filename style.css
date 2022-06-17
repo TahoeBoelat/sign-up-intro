@@ -94,7 +94,7 @@ body {
   font-size: 12px;
   text-align: right;
   color: hsl(0, 100%, 74%);
-  visibility: hidden;
+  margin-bottom: 15px;
 }
 .term-and-services {
   margin-top: 12px;
