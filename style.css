@@ -2,141 +2,150 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 body {
-  background-image: url(./img/bg-intro-desktop.png);
-  background-color: hsl(0, 100%, 74%);
-  font-family: "Poppins", sans-serif;
+	background-image: url(./img/bg-intro-desktop.png);
+	background-color: hsl(0, 100%, 74%);
+	font-family: "Poppins", sans-serif;
 }
 .submit-button,
 .trial-button {
-  cursor: pointer;
-  font-family: "Poppins", sans-serif;
+	cursor: pointer;
+	font-family: "Poppins", sans-serif;
 }
 .trial-button:hover {
-  box-shadow: 0 3px 3px hsl(248, 28%, 44%);
+	box-shadow: 0 3px 3px hsl(248, 28%, 44%);
 }
 .submit-button:hover {
-  box-shadow: 0 3px 3px hsl(154, 51%, 38%);
+	box-shadow: 0 3px 3px hsl(154, 51%, 38%);
 }
 /* Desktop Style */
 #container {
-  display: flex;
-  margin: auto;
-  width: 85%;
-  flex-direction: row;
+	display: flex;
+	margin: auto;
+	width: 85%;
+	flex-direction: row;
 }
 #first-section {
-  margin-right: 24px;
-  margin-top: 250px;
+	margin-right: 24px;
+	margin-top: 250px;
 }
 .main-title {
-  font-size: 48px;
+	font-size: 48px;
 }
 .description {
-  margin-top: 18px;
+	margin-top: 18px;
 }
 #second-section {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 .main-title,
 .description,
 .submit-button,
 .trial-button {
-  color: #fff;
+	color: #fff;
 }
 .registration-form {
-  padding: 15px;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  align-items: center;
-  margin-top: 36px;
-  border-radius: 10px;
+	padding: 35px;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	align-items: center;
+	margin-top: 36px;
+	border-radius: 10px;
+}
+.firstNameContainer,
+.lastNameContainer,
+.emailContainer,
+.passContainer {
+	display: flex;
+	flex-direction: column;
 }
 .bolder {
-  color: hsl(246, 25%, 77%);
+	color: hsl(246, 25%, 77%);
 }
 .trial-button {
-  font-size: 18px;
-  text-decoration: none;
-  width: 525px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-  text-align: center;
-  background-color: hsl(248, 32%, 49%);
+	font-size: 18px;
+	text-decoration: none;
+	width: 525px;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+	background-color: hsl(248, 32%, 49%);
 }
-.input-field {
-  border: 2px solid hsl(246, 25%, 77%);
-  border-radius: 10px;
-  width: 450px;
-  height: 50px;
-  padding: 5px;
-  font-family: "Poppins", sans-serif;
-}
-.input-field[type="email"]:focus {
-  border-color: hsl(248, 32%, 49%);
+#first-name-field,
+#last-name-field,
+#email-field,
+#password-field {
+	border: 2px solid hsl(246, 25%, 77%);
+	border-radius: 10px;
+	width: 25em;
+	height: 50px;
+	padding: 5px;
+	font-family: "Poppins", sans-serif;
 }
 .submit-button {
-  background-color: hsl(154, 59%, 51%);
-  border: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  width: 450px;
-  height: 50px;
-  border-radius: 10px;
+	background-color: hsl(154, 59%, 51%);
+	border: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-left: 0;
+	margin-right: 0;
+	width: 250px;
+	height: 50px;
+	border-radius: 10px;
 }
 .alert-dialog {
-  font-size: 12px;
-  text-align: right;
-  color: hsl(0, 100%, 74%);
-  margin-bottom: 15px;
+	font-size: 12px;
+	text-align: right;
+	color: hsl(0, 100%, 74%);
+	margin-bottom: 15px;
 }
 .term-and-services {
-  margin-top: 12px;
-  font-size: 12px;
-  color: hsl(246, 25%, 77%);
+	margin-top: 12px;
+	font-size: 12px;
+	color: hsl(246, 25%, 77%);
 }
 .link {
-  color: hsl(0, 100%, 74%);
-  text-decoration: none;
+	color: hsl(0, 100%, 74%);
+	text-decoration: none;
 }
 /* Mobile Style */
 @media only screen and (min-width: 320px) and (max-width: 825px) {
-  #container {
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-  }
-  /* First section */
-  #first-section {
-    margin-left: 15px;
-    align-self: center;
-    text-align: center;
-  }
-  /* Second section */
-  #second-section {
-    justify-self: center;
-  }
-  .trial-button {
-    text-align: center;
-    width: 100%;
-    height: 65px;
-  }
-  .registration-form {
-    width: 90%;
-  }
-  .input-field {
-    width: 80%;
-  }
-  .submit-button {
-    width: 80%;
-  }
-  .term-and-services {
-    text-align: center;
-  }
+	#container {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+	}
+	/* First section */
+	#first-section {
+		margin-left: 15px;
+		align-self: center;
+		text-align: center;
+	}
+	/* Second section */
+	#second-section {
+		justify-self: center;
+	}
+	.trial-button {
+		text-align: center;
+		width: 100%;
+		height: 65px;
+	}
+	.registration-form {
+		width: 90%;
+	}
+	.input-field {
+		width: 80%;
+	}
+	.submit-button {
+		width: 80%;
+	}
+	.term-and-services {
+		text-align: center;
+	}
 }
