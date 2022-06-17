@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Sign up Intro</title>
-  </head>
-  <body>
-    <main id="container">
-      <section id="first-section">
-        <h1 class="main-title">Learn to code by watching others</h1>
-        <p class="description">
-          See how experienced developers solve problems in real-time. Watching
-          scripted tutorials is great, but understanding how developers think is
-          invaluable
-        </p>
-      </section>
-      <section id="second-section">
-        <button type="button" href="#" class="trial-button">
-          Try it free 7 days <span class="bolder">then $20/mo. thereafter</span>
-        </button>
-        <form action="POST" class="registration-form" novalidate>
-          <input
-            type="text"
-            name="first-name-field"
-            id="first-name-field"
-            class="input-field"
-            placeholder="First Name"
-            required
-          />
-          <span for="first-name-field" class="alert-dialog"></span>
-
-          <input
-            type="text"
-            name="last-name-field"
-            id="last-name-field"
-            class="input-field"
-            placeholder="Last Name"
-            required
-          />
-          <span for="last-name-field" class="alert-dialog"></span>
-
-          <input
-            type="email"
-            name="email-field"
-            id="email-field"
-            class="input-field"
-            placeholder="Email Adress"
-            required
-          />
-          <span for="email-field" class="alert-dialog"></span>
-
-          <input
-            type="password"
-            name="password-field"
-            id="password-field"
-            class="input-field"
-            placeholder="Password"
-            required
-          />
-          <span for="password-field" class="alert-dialog"></span>
-
-          <button type="submit" class="submit-button">
-            Claim your free trial
-          </button>
-          <p class="term-and-services">
-            By clicking the button, you are agreeing to our
-            <a href="#" class="link">Terms and Services</a>
-          </p>
-        </form>
-      </section>
-    </main>
-    <script src="./app.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Sign up Intro</title>
+	</head>
+	<body>
+		<main id="container">
+			<section id="first-section">
+				<h1 class="main-title">Learn to code by watching others</h1>
+				<p class="description">
+					See how experienced developers solve problems in real-time. Watching
+					scripted tutorials is great, but understanding how developers think is
+					invaluable
+				</p>
+			</section>
+			<section id="second-section">
+				<button type="button" href="#" class="trial-button">
+					Try it free 7 days <span class="bolder">then $20/mo. thereafter</span>
+				</button>
+				<form action="#" class="registration-form" novalidate>
+					<div class="firstNameContainer">
+						<input
+							type="text"
+							name="first-name-field"
+							id="first-name-field"
+							placeholder="First Name"
+							required
+						/>
+						<span for="first-name-field" class="alert-dialog"></span>
+					</div>
+					<div class="lastNameContainer">
+						<input
+							type="text"
+							name="last-name-field"
+							id="last-name-field"
+							placeholder="Last Name"
+							required
+						/>
+						<span for="last-name-field" class="alert-dialog"></span>
+					</div>
+					<div class="emailContainer">
+						<input
+							type="email"
+							name="email-field"
+							id="email-field"
+							placeholder="Email Adress"
+							required
+						/>
+						<span for="email-field" class="alert-dialog"></span>
+					</div>
+					<div class="passContainer">
+						<input
+							type="password"
+							name="password-field"
+							id="password-field"
+							placeholder="Password"
+							required
+						/>
+						<span for="password-field" class="alert-dialog"></span>
+					</div>
+					<button type="submit" class="submit-button">
+						Claim your free trial
+					</button>
+					<p class="term-and-services">
+						By clicking the button, you are agreeing to our
+						<a href="#" class="link">Terms and Services</a>
+					</p>
+				</form>
+			</section>
+		</main>
+		<script src="./app.js"></script>
+	</body>
 </html>
