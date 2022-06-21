@@ -24,11 +24,6 @@ const userPassFieldError = document.querySelector(
   ".js-password-field + span.alert-dialog"
 );
 
-const userPasswordField = document.getElementById("password-field");
-const userPassFieldError = document.querySelector(
-  "#password-field + span.alert-dialog"
-);
-
 // Per Input Logic
 // First name input
 firstNameField.addEventListener("input", function (event) {
