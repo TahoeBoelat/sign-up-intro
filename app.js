@@ -4,19 +4,24 @@
 // Initialing Variable
 const form = document.getElementsByTagName("form")[0];
 
-const firstNameField = document.getElementById("first-name-field");
+const firstNameField = document.querySelector(".js-first-name-field");
 const firstNameFieldError = document.querySelector(
-  "#first-name-field + span.alert-dialog"
+  ".js-first-name-field + span.alert-dialog"
 );
 
-const lastNameField = document.getElementById("last-name-field");
+const lastNameField = document.querySelector(".js-last-name-field");
 const lastNameFieldError = document.querySelector(
-  "#last-name-field + span.alert-dialog"
+  ".js-last-name-field + span.alert-dialog"
 );
 
-const userEmailField = document.getElementById("email-field");
+const userEmailField = document.querySelector(".js-email-field");
 const userEmailFieldError = document.querySelector(
-  "#email-field + span.alert-dialog"
+  ".js-email-field + span.alert-dialog"
+);
+
+const userPasswordField = document.querySelector(".js-password-field");
+const userPassFieldError = document.querySelector(
+  ".js-password-field + span.alert-dialog"
 );
 
 const userPasswordField = document.getElementById("password-field");
